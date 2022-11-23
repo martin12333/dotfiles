@@ -67,9 +67,10 @@ cp -R -v --no-clobber               $script_dir/no-clobber/.   $HOME
 
 
 # git push , acronis, before testing trying these first time
-mv -v  --backup=numbered  ~/dotfiles  ~/OLDdotfiles
+mv -v  --backup=numbered  ~/dotfiles  ~/OLDdotfiles         &&             ln -s -v            "$script_dir"  ~/dotfiles
+# dont repeat ln without mv
+
 ##ln -s -v --no-clobber               "$script_dir"  ~/dotfiles
-ln -s -v            "$script_dir"  ~/dotfiles
 
 # git push , acronis, before testing trying these first time
 

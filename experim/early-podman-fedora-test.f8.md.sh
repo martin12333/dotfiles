@@ -92,8 +92,12 @@ mkdir ~/dotfiles
 
 # git push , acronis, before testing trying these first time
 
-ln -s -v --no-clobber               "$script_dir"  ~/dotfiles
-ln -s -v            "$script_dir"  ~/dotfiles
+##ln -s -v --no-clobber               "$script_dir"  ~/dotfiles
+mv -v  --backup=numbered  ~/dotfiles  ~/OLDdotfiles    &&     ln -s -v            "$script_dir"  ~/dotfiles
+# dont repeat ln without mv
+C:\Users\marti\OneDrive\dotfiles\dotfiles: UNKNOWN MICROSOFT REPARSE POINT
+therefore deleted using wexplorer
+
 
 
 When the destination is an actual directory (not a symlink to one), there is no ambiguity. The link is created in that directory.
