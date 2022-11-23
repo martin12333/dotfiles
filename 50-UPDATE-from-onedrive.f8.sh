@@ -18,9 +18,8 @@ mv -v  --backup=numbered  dotfiles OLDdotfiles
 
 todo
 
-MOVING TO dotfiles/*-*.f8.sh FROM
-code 'C:\Users\marti\OneDrive\linux-f8\30-linux-setup.f8.sh'
-line 175
+#MOVed TO this FROM
+#code 'C:\Users\marti\OneDrive\linux-f8\30-linux-setup.f8.sh'
 
 echo '-------- section --------'
 
@@ -33,5 +32,5 @@ mv -v  --backup=numbered  .zshrc OLD/
 
 echo '-------- section --------'
 
-/mnt/c/Users/marti/OneDrive/dotfiles/install.sh
+bash /mnt/c/Users/marti/OneDrive/dotfiles/install.sh
 
