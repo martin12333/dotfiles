@@ -14,12 +14,12 @@ echo '-------- section --------'
 
 echo '-------- section --------'
 
-mv -v  --backup=numbered  dotfiles OLDdotfiles
 
 todo
 
 #MOVed TO this FROM
 #code 'C:\Users\marti\OneDrive\linux-f8\30-linux-setup.f8.sh'
+#mv -v  --backup=numbered  dotfiles OLDdotfiles
 
 echo '-------- section --------'
 
