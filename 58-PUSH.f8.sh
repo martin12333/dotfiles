@@ -34,6 +34,7 @@ git add -v .
 	git commit -v -a -m  rename
 	git commit -v -a -m  rewrite
 
+	git commit -v -a -m  before-manip-dirs
 	git commit -v -a -m  before-refactor
 	git commit -v -a -m  partial-refactor
 	git commit -v -a -m  refactor
@@ -48,3 +49,6 @@ git add -v .
 	git show --name-only
 
 git ls-files
+
+
+echo '-------- section --------'

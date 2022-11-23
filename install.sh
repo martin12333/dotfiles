@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+##set -e
 set -u
 set -x
 
@@ -52,3 +52,14 @@ cp -R -v --no-clobber               $script_dir/no-clobber/.   $HOME
 #git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 #ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
+
+
+
+
+#echo '-------- section --------'
+
+# git push , acronis, before testing trying these first time
+
+mv -v  --backup=numbered  ~/dotfiles  ~/OLDdotfiles
+ln -s -v --no-clobber               "$script_dir"  ~/dotfiles
+# git push , acronis, before testing trying these first time
