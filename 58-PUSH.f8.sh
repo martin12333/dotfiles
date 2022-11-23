@@ -28,9 +28,12 @@ git add -v .
 
 #git commit -v -a -m from-onedrive
 
+git commit -v -a -m  before-manip-dirs
 	git commit -v -a -m bk
-
-
+	git commit -v -a -m it-works
+	git commit -v -a -m add
+	git commit -v -a -m win-x-admin
+#
 	git commit -v -a -m  rename
 	git commit -v -a -m  rewrite
 

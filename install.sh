@@ -60,9 +60,9 @@ cp -R -v --no-clobber               $script_dir/no-clobber/.   $HOME
 
 
 
-When the destination is an actual directory (not a symlink to one), there is no ambiguity. The link is created in that directory.
+#When the destination is an actual directory (not a symlink to one), there is no ambiguity. The link is created in that directory.
 
-Normally ln does not replace existing files.
+#Normally ln does not replace existing files.
 
 
 
