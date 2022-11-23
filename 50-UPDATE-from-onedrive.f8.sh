@@ -20,6 +20,6 @@ todo
 
 MOVING TO dotfiles/*-*.f8.sh FROM
 code 'C:\Users\marti\OneDrive\linux-f8\30-linux-setup.f8.sh'
-line 145
+line 175
 
 echo '-------- section --------'
