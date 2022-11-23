@@ -15,9 +15,18 @@ echo '-------- section --------'
 
 echo '-------- section --------'
 
+
+
+
+
+git add -v --dry-run .
+git add -v .
+
 	git add -vv  '*.f8.*'
 	git add -vv --dry-run '*.sh'
 	git add -vv  '*.sh'
+
+#git commit -v -a -m from-onedrive
 
 	git commit -v -a -m bk
 
@@ -32,6 +41,8 @@ echo '-------- section --------'
 
 
 	git push
+#git push -u origin main
 
 	git show --name-only
 
+git ls-files
