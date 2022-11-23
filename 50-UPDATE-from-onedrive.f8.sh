@@ -23,3 +23,15 @@ code 'C:\Users\marti\OneDrive\linux-f8\30-linux-setup.f8.sh'
 line 175
 
 echo '-------- section --------'
+
+
+
+echo '-------- section --------'
+
+cd
+mv -v  --backup=numbered  .zshrc OLD/
+
+echo '-------- section --------'
+
+/mnt/c/Users/marti/OneDrive/dotfiles/install.sh
+
