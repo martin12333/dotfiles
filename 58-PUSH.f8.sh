@@ -21,6 +21,16 @@ echo '-------- section --------'
 
 	git commit -v -a -m bk
 
+
+	git commit -v -a -m  rename
+	git commit -v -a -m  rewrite
+	git commit -v -a -m  before-refactor
+	git commit -v -a -m  partial-refactor
+	git commit -v -a -m  refactor
+	git commit -v -a -m vulnera #
+	git commit -v -a -m zshrc
+
+
 	git push
 
 	git show --name-only
