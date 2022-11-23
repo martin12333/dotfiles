@@ -58,8 +58,24 @@ cp -R -v --no-clobber               $script_dir/no-clobber/.   $HOME
 
 #echo '-------- section --------'
 
+
+
+When the destination is an actual directory (not a symlink to one), there is no ambiguity. The link is created in that directory.
+
+Normally ln does not replace existing files.
+
+
+
 # git push , acronis, before testing trying these first time
 
 mv -v  --backup=numbered  ~/dotfiles  ~/OLDdotfiles
-ln -s -v --no-clobber               "$script_dir"  ~/dotfiles
+##ln -s -v --no-clobber               "$script_dir"  ~/dotfiles
+ln -s -v            "$script_dir"  ~/dotfiles
+
+
+
 # git push , acronis, before testing trying these first time
+
+
+
+

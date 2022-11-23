@@ -81,7 +81,25 @@ cp -R -v --no-clobber  no-clobber/.  $HOME
 
 echo '-------- section --------'
 
+cd
+script_dir=/mnt/c/Users/marti/OneDrive/dotfiles
+echo $script_dir
+
+mv -v  --backup=numbered  ~/dotfiles  ~/OLDdotfiles
+touch ~/dotfiles
+mkdir ~/dotfiles
 
 
+# git push , acronis, before testing trying these first time
+
+ln -s -v --no-clobber               "$script_dir"  ~/dotfiles
+ln -s -v            "$script_dir"  ~/dotfiles
+
+
+When the destination is an actual directory (not a symlink to one), there is no ambiguity. The link is created in that directory.
+
+Normally ln does not replace existing files.
+
+# git push , acronis, before testing trying these first time
 
 ```
