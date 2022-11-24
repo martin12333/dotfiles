@@ -99,6 +99,22 @@ C:\Users\marti\OneDrive\dotfiles\dotfiles: UNKNOWN MICROSOFT REPARSE POINT
 therefore deleted using wexplorer
 
 
+https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html#ln-invocation
+
+‘-n’
+‘--no-dereference’
+Do not treat the last operand specially when it is a symbolic link to a directory. Instead, treat it as if it were a normal file.
+
+When the destination is an actual directory (not a symlink to one), there is no ambiguity. The link is created in that directory. But when the specified destination is a symlink to a directory, there are two ways to treat the user’s request. ln can treat the destination just as it would a normal directory and create the link in it. On the other hand, the destination can be viewed as a non-directory—as the symlink itself. In that case, ln must delete or backup that symlink before creating the new link. The default is to treat a destination that is a symlink to a directory just like a directory.
+
+This option is weaker than the --no-target-directory (-T) option, so it has no effect if both options are given.
+
+
+‘--no-target-directory’
+Do not treat the last operand specially when it is a directory or a symbolic link to a directory. See Target directory.
+
+
+
 
 When the destination is an actual directory (not a symlink to one), there is no ambiguity. The link is created in that directory.
 

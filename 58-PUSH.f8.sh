@@ -60,5 +60,6 @@ git commit -v -a -m  before-manip-dirs
 
 git ls-files
 
+C:\pf\Git\bin\bash.exe
 
 echo '-------- section --------'
